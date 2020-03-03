@@ -78,7 +78,7 @@ firebase.auth().onAuthStateChanged(user => {
     //show guesbook if loggedin
     guestbookContainer.style.display = "block";
   } else {
-    startRsvpButton.textContent = "RSVP";
+    startRsvpButton.textContent = "RSVP Now";
     guestbookContainer.style.display = "none";
   }
 });
